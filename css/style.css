@@ -1,0 +1,79 @@
+body {
+    background-color: red;
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+title {
+    color: azure;
+    font-size: 3cm;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+main {
+    background-color: beige;
+    max-width: 60%;
+    margin-left: 35%;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    background-color: blueviolet;
+    max-width: 25%;
+    height: 100vh;
+    padding: 3%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+section {
+    border: 1px;
+    width: 60%;
+    margin: 5%;
+    padding: 3%;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 24pt;
+}
+
+header {
+    text-align: center;
+    margin-top: 15%;
+}
+
+header img:hover {
+    background-color: aqua;
+    opacity: .5;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: blue;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
+
+#friends {
+    padding: 6%;
+    border: 5pt;
+}
